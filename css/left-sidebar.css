@@ -1,0 +1,64 @@
+.left-sidebar {
+    margin-left: 50px;
+    padding-right: 20px;
+    width: 230px;
+    min-width: 230px;
+}
+
+.left-sidebar__info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    height: 100%;
+}
+
+.left-sidebar__frame {
+    position: relative;
+    display: inline-block;
+    padding: 15px;
+    border: 1px solid rgb(75, 75, 75);
+    margin-bottom: 20px;
+    width: 185px;
+}
+
+
+
+.left-sidebar__frame img {
+    display: block;
+    width: 100%;
+}
+
+.left-sidebar__userinfo h3 {
+    font-size: 13px;
+    font-weight: lighter;
+    line-height: 13.58px;
+    letter-spacing: 3px;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.left-sidebar__userinfo p {
+    font-family: "Big Shoulders Display", sans-serif;
+    color: #E84A4A;
+    padding-bottom: 25px;
+    line-height: 21.55px;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.left-sidebar__availability {
+    margin-bottom: 20px;
+}
+
+.left-sidebar__motto {
+    margin-top: auto;
+}
+
+.left-sidebar__motto h3 {
+    color: #E84A4A;
+}
+
+.left-sidebar__motto p {
+    color: #B2B7BA;
+}

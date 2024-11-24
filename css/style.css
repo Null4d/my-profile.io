@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Iceland", serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+    background-image: url(../img/Rectangle.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #E84A4A;;
+}
+/*Right Bar End*/
+
+/*First Page End*/
+
+/*Page 2 End*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Page 3 End*/
+
+
+/*Left Bar End*/

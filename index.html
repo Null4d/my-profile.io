@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Iceland&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bem.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/wrapper.css">
+    <link rel="stylesheet" href="css/left-sidebar.css">
+    <link rel="stylesheet" href="css/right-sidebar.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/line.css">
+    <title>Web Portfolio</title>
+</head>
+
+<body>
+
+    <div class="body">
+
+
+        <div class="header">
+
+        </div>
+        <!--End Header-->
+
+        <div class="wrapper">
+            <div class="left-sidebar">
+                <div class="left-sidebar__info">
+
+                    <div class="left-sidebar__frame">
+                        <i class="line line-left-top"></i>
+                        <i class="line line-right-top"></i>
+                        <i class="line line-bottom-left"></i>
+                        <i class="line line-bottom-right"></i>
+
+                        <img src="img/Photo1.png" alt="">
+                    </div>
+
+                    <div class="left-sidebar__userinfo">
+                        <div>
+                            <h3>Name</h3>
+                            <p>Batu</p>
+
+                            <h3>Location</h3>
+                            <p>Georgia</p>
+
+                            <h3>corporation</h3>
+                            <p>Web Portfolio</p>
+
+                            <h3>occupation</h3>
+                            <p>Protocol developer</p>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+            <!--End Wrapper Left-->
+
+            <div class="wrapper-content">
+                <i class="line line-left-top"></i>
+                <i class="line line-right-top"></i>
+                <i class="line line-bottom-left"></i>
+                <i class="line line-bottom-right"></i>
+
+                <div id="About">
+                    
+                </div>
+                
+                <!-- <div class="hero">
+                    <div class="hero__text">
+                        <p>SWIMMING THROUGH A VAST NETWORK OF INTERCONNECTED DEVICES AND <br> SERVERS, SPREADING JOY
+                            AND
+                            WHIMSY TO USERS ACROSS THE GLOBE</p>
+                        <span>ARTWORK GENERATED WITH MIDJOURNEY</span>
+                    </div>
+
+                    <div class="hero__whale">
+                        <img src="img/photo4.png" alt="">
+                    </div>
+                </div> -->
+            </div>
+            <!--End Wrapper mid-->
+
+            <div class="right-sidebar">
+                <div class="right-sidebar__setting">
+
+                    <div class="music-player">
+                        <audio id="background-music" loop autoplay>
+                            <source src="bg-music.mp3" type="audio/mp3">
+                            Tarayıcınız bu müzik formatını desteklemiyor.
+                        </audio>
+                    </div>
+
+                    <button id="play-button" class="right-sidebar__option">
+                        <span>SOUND EFFECTS</span>
+                        <div class="right-sidebar__checkbox right-sidebar__checkbox--checked"></div>
+                    </button>
+
+                    <button id="pause-button" class="right-sidebar__option">
+                        <span>MUSIC</span>
+                        <div class="right-sidebar__checkbox right-sidebar__checkbox--unchecked"></div>
+                </div>
+            </div>
+
+        </div>
+        <!--End Wrapper-->
+
+        <div class="body-footer">
+            <div class="menu">
+
+                <a href="index.html">
+                    <div class="menu-bar menu-bar--active">
+                        <div class="menu-title">
+                            <h6>Home</h6>
+                        </div>
+
+                        <div class="menu-p">
+
+                        </div>
+                    </div>
+                </a>
+
+                <a href="">
+                    <div class="menu-bar">
+                        <div class="menu-title">
+                            <h6>About</h6>
+                        </div>
+
+                        <div class="menu-p">
+
+                        </div>
+                    </div>
+                </a>
+
+                <a href="">
+                    <div class="menu-bar">
+                        <div class="menu-title">
+                            <h6>Works</h6>
+                        </div>
+
+                        <div class="menu-p">
+
+                        </div>
+                    </div>
+                </a>
+
+                <!-- <a href="games.html">
+                    <div class="menu-bar">
+                        <div class="menu-title">
+                            <h6>games</h6>
+                        </div>
+
+                        <div class="menu-p">
+
+                        </div>
+                    </div>
+                </a> -->
+
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        // Audio elementi al
+        const music = document.getElementById('background-music');
+
+        // Butonları al
+        const playButton = document.getElementById('play-button');
+        const pauseButton = document.getElementById('pause-button');
+
+        // Oynat butonu tıklama olayı
+        playButton.addEventListener('click', () => {
+            music.play();
+        });
+
+        // Durdur butonu tıklama olayı
+        pauseButton.addEventListener('click', () => {
+            music.pause();
+        });
+    </script>
+</body>
+
+
+
+</html>
