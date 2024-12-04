@@ -1,0 +1,110 @@
+
+:root {
+    --primary-1: #E84A4A;
+    --primary-2: #22c55e;
+    --primary-3: #9b59b6;
+    --primary-4: #ffffff;
+    --primary-5: rgb(165, 165, 165);
+    --hero-bg: url(../img/photo4.png);
+    --green-bg1: url(../img/image-1.png);
+    --green-bg2: url(../img/Rectangle.png);
+
+    .about-image__skeletongreen,
+    .about-image__skeletonpurple {
+        display: none;
+    }
+
+    .avatar-green,
+    .avatar-purple {
+        display: none;
+    }
+}
+
+.primary-2 {
+    --primary-1: #22c55e;
+    --primary-2: #E84A4A;
+    --hero-bg: url(../img/greenwhale.png);
+    --green-bg1: url(../img/greenbg1.png);
+    --green-bg2: url(../img/greenbg2.png);
+
+    .about-image__skeletongreen {
+        display: block;
+    }
+
+    .about-image__skeleton {
+        display: none;
+    }
+
+    .avatar-green {
+        display: block;
+    }
+
+    .avatar {
+        display: none;
+    }
+}
+
+.primary-3 {
+    --primary-1: #ae47d8;
+    --hero-bg: url(../img/purple-bg.png);
+    --green-bg1: url(../img/purple-bg1.png);
+    --green-bg2: url(../img/purple-bg2.png);
+
+    .about-image__skeletonpurple {
+        display: block;
+    }
+
+    .about-image__skeleton,
+    .about-image__skeletongreen {
+        display: none;
+    }
+
+    .avatar-purple {
+        display: block;
+    }
+
+    .avatar,
+    .avatar-green {
+        display: none;
+    }
+}
+
+.theme {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.not-hover {
+    display: flex;
+    gap: 5px;
+}
+
+.not-hover:hover> :not(:hover) {
+    opacity: 0.4;
+}
+
+.red {
+    width: 15px;
+    height: 15px;
+    background: #E84A4A;
+    cursor: pointer;
+    border: none;
+}
+
+.green {
+    width: 15px;
+    height: 15px;
+    background: #22c55e;
+    cursor: pointer;
+    border: none;
+}
+
+.purple {
+    width: 15px;
+    height: 15px;
+    background: #ae47d8;
+    cursor: pointer;
+    border: none;
+}

@@ -1,8 +1,7 @@
 .left-sidebar {
-    margin-left: 50px;
-    padding-right: 20px;
-    width: 230px;
-    min-width: 230px;
+    width: 280px;
+    min-width: 280px;
+    padding-left: 50px;
 }
 
 .left-sidebar__info {
@@ -16,30 +15,34 @@
     position: relative;
     display: inline-block;
     padding: 15px;
-    border: 1px solid rgb(75, 75, 75);
+    border: 1px solid rgb(75 75 75 / 50%);
     margin-bottom: 20px;
     width: 185px;
 }
 
 
-
 .left-sidebar__frame img {
     display: block;
     width: 100%;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
+
 
 .left-sidebar__userinfo h3 {
     font-size: 13px;
     font-weight: lighter;
     line-height: 13.58px;
     letter-spacing: 3px;
-    color: white;
+    color: var(--primary-4);
     padding-bottom: 5px;
 }
 
 .left-sidebar__userinfo p {
     font-family: "Big Shoulders Display", sans-serif;
-    color: #E84A4A;
+    color: var(--primary-1);
     padding-bottom: 25px;
     line-height: 21.55px;
     letter-spacing: 2px;
@@ -56,9 +59,15 @@
 }
 
 .left-sidebar__motto h3 {
-    color: #E84A4A;
+    color: var(--primary-1);
 }
 
 .left-sidebar__motto p {
-    color: #B2B7BA;
+    font-size: 13px;
+    padding-top: 5px;
+    color: var(--primary-5);
+}
+
+.left-sidebar__top {
+    display: none;
 }

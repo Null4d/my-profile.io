@@ -9,10 +9,11 @@
 
 body {
     background-color: black;
-    background-image: url(../img/Rectangle.png);
+    background-image: var(--green-bg2);
     background-position: right top;
     background-repeat: no-repeat;
 }
+
 
 ::-webkit-scrollbar {
     width: 2px;
@@ -23,8 +24,10 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #E84A4A;;
+    background: var(--primary-1);
 }
+
+
 /*Right Bar End*/
 
 /*First Page End*/

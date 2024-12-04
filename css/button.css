@@ -3,7 +3,7 @@
     align-items: center;
     border: 2px solid #E84A4A;
     padding: 6px;
-    background-color: #E84A4A;
+    background-color: var(--primary-1);
     color: #000003;
     letter-spacing: 2px;
     font-size: 1rem;
@@ -21,17 +21,17 @@
 
 .btn:hover {
     background-color: transparent;
-    color: #E84A4A;
+    color: var(--primary-1);
 }
 
 .btn--dark {
     border: 2px solid #E84A4A;
     background-color: transparent;
-    color: #E84A4A;
+    color: var(--primary-1);
 }
 
 .btn--dark:hover {
-    background-color: #E84A4A;
+    background-color: var(--primary-1);
     color: #000003;
 }
 

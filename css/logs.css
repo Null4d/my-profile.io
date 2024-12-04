@@ -84,7 +84,7 @@
 
 .logs-card__box h2 {
     font-family: "Big Shoulders Display", sans-serif;
-    color: #E84A4A;
+    color: var(--primary-1);
     font-size: 1.3rem;
     margin-bottom: 10px;
     font-weight: bold;
@@ -115,7 +115,7 @@
 }
 
 .logs-card__expand {
-    color: #E84A4A;
+    color: var(--primary-1);
     cursor: pointer;
     margin-top: 10px;
 }

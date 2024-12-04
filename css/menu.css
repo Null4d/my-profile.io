@@ -10,14 +10,17 @@
     height: 80px;
     width: 151px;
     position: relative;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 
 .menu-bar.menu-bar--active::before {
-    background-color: #E84A4A;
+    background-color: var(--primary-1);
 }
 
 .menu-bar--active .menu-title {
-    background-color: #c23f3f;
+    background-color: var(--primary-1);
 }
 
 .menu-bar::before {
@@ -33,7 +36,7 @@
 .menu-title {
     height: 30px;
     backdrop-filter: blur(3px);
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #242425;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
     padding-left: 10px;
     padding-bottom: 10px;
@@ -43,7 +46,7 @@
 
 .menu-title h6 {
     font-family: "Big Shoulders Display", sans-serif;
-    color: white;
+    color: var(--primary-4);
     font-size: 1.6rem;
     letter-spacing: 1px;
 }
@@ -56,6 +59,5 @@
     padding-left: 10px;
     padding-top: 10px;
     font-size: 0.7rem;
-    background-color: #121213;
-    opacity: 0.5;
+    background-color: #12121373;
 }
