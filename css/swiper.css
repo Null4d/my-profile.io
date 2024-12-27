@@ -20,21 +20,19 @@
 
 .swiper-slide {
     display: flex;
-    background-position: center;
-    background-size: cover;
     padding: 20px;
 }
 
 .swiper-slide__img {
     display: flex;
-    height: 400px;
+    align-items: start;
+    height: 100%;
     overflow: hidden;
 }
 
 .swiper-slide img {
     display: block;
     width: 100%;
-    height: 100%;
 }
 
 .swiper-info {
@@ -43,6 +41,7 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     padding-top: 20px;
+    white-space: nowrap;
 }
 
 .swiper-info a {
