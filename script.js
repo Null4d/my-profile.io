@@ -33,8 +33,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-
-
 var swiper = new Swiper(".mySwiper", {
     effect: "cube",
     grabCursor: true,
@@ -54,17 +52,6 @@ var swiper = new Swiper(".mySwiper", {
     },
 });
 
-document.addEventListener("DOMContentLoaded", () => {
-    // Belirtilen tüm elementleri seç
-    const elements = document.querySelectorAll("h1, h2, h3, h4, h5, h6, span, p");
-
-    elements.forEach(el => {
-        const scramble = new TextScramble(el);
-        const text = el.innerText; // Orijinal metni al
-        el.innerText = ""; // Metni temizle
-        scramble.setText(text); // Scramble efekti başlat
-    });
-});
 
 const body = document.body;
 
@@ -91,4 +78,3 @@ purpleButton.addEventListener('click', () => {
     body.className = '';
     body.classList.add('primary-3');
 });
-
