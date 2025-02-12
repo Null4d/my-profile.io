@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Big Shoulders Display';
+    src: url('../fonts/BigShouldersDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/BigShouldersDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Big Shoulders Display';
+    src: url('../fonts/BigShouldersDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/BigShouldersDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Iceland';
+    src: url('../fonts/Iceland-Regular.woff2') format('woff2'),
+        url('../fonts/Iceland-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
