@@ -1,4 +1,3 @@
-
 :root {
     --primary-1: #E84A4A;
     --primary-2: #22c55e;
@@ -76,35 +75,43 @@
     justify-content: center;
 }
 
-.not-hover {
+.theme-notHover {
     display: flex;
     gap: 5px;
 }
 
-.not-hover:hover> :not(:hover) {
+.theme-notHover:hover> :not(:hover) {
     opacity: 0.4;
 }
 
-.red {
+.theme-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 15px;
     height: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+.theme-btn__red {
     background: #E84A4A;
-    cursor: pointer;
-    border: none;
 }
 
-.green {
-    width: 15px;
-    height: 15px;
+.theme-btn__green {
     background: #22c55e;
-    cursor: pointer;
-    border: none;
 }
 
-.purple {
-    width: 15px;
-    height: 15px;
+.theme-btn__purple {
     background: #ae47d8;
-    cursor: pointer;
-    border: none;
+}
+
+.theme-btn__hidden {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    white-space: nowrap;
+    background: transparent;
+    pointer-events: none;
+    overflow: hidden;
 }
