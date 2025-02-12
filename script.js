@@ -55,9 +55,9 @@ var swiper = new Swiper(".mySwiper", {
 
 const body = document.body;
 
-const redButton = document.querySelector('.red');
-const greenButton = document.querySelector('.green');
-const purpleButton = document.querySelector('.purple');
+const redButton = document.querySelector('.theme-btn__red');
+const greenButton = document.querySelector('.theme-btn__green');
+const purpleButton = document.querySelector('.theme-btn__purple');
 
 document.addEventListener('DOMContentLoaded', () => {
     body.classList.add('primary-1');
