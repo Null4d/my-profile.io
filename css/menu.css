@@ -44,7 +44,7 @@
 }
 
 
-.menu-title h6 {
+.menu-title span {
     font-family: "Big Shoulders Display", sans-serif;
     color: var(--primary-4);
     font-size: 1.6rem;
