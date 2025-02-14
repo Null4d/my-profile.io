@@ -60,11 +60,6 @@
     color: var(--primary-1);
 }
 
-.about-text {
-    /* font-size: 1rem;
-    line-height: 1.5;
-    color: rgb(180, 180, 180); */
-}
 
 .about-text:hover {
     color: var(--primary-1);
